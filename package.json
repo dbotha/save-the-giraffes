@@ -1,0 +1,16 @@
+{
+  "name": "save-the-giraffes",
+  "version": "1.0.0",
+  "description": "Limpopo Giraffe Initiative - Preventing giraffe culling in South Africa",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "keywords": ["giraffe", "conservation", "npo", "south-africa"],
+  "author": "Limpopo Giraffe Initiative",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-img": "^6.0.4"
+  }
+}

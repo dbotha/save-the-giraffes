@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpopo Giraffe Initiative – Golden Hour</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        amber: { 950: '#451A03' },
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-playfair { font-family: 'Playfair Display', serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        .text-shadow { text-shadow: 0 2px 20px rgba(0,0,0,0.5); }
+        .text-shadow-sm { text-shadow: 0 1px 8px rgba(0,0,0,0.3); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="font-inter text-stone-800">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-gradient-to-b from-black/50 to-transparent">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <a href="#" class="font-playfair text-xl md:text-2xl font-bold text-white text-shadow-sm">Limpopo Giraffe Initiative</a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#about" class="text-white/90 hover:text-amber-300 transition text-sm font-medium tracking-wide">About</a>
+                <a href="#problem" class="text-white/90 hover:text-amber-300 transition text-sm font-medium tracking-wide">The Problem</a>
+                <a href="#solution" class="text-white/90 hover:text-amber-300 transition text-sm font-medium tracking-wide">Our Solution</a>
+                <a href="#visit" class="text-white/90 hover:text-amber-300 transition text-sm font-medium tracking-wide">Visit</a>
+                <a href="#donate" class="bg-amber-500 hover:bg-amber-400 text-amber-950 px-5 py-2 rounded-full text-sm font-semibold transition">Donate</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/DSC_5475.jpg" alt="Giraffe in golden light" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-amber-900/30 via-amber-800/40 to-amber-950/80"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-amber-900/50 to-transparent"></div>
+        </div>
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+            <p class="text-amber-300 text-lg md:text-xl font-medium tracking-wide mb-4 text-shadow-sm">Every Giraffe Deserves a Future &ndash; Not a Bullet.</p>
+            <h1 class="font-playfair text-4xl md:text-6xl lg:text-7xl font-900 text-white leading-tight text-shadow mb-6">
+                Help Us Prevent Giraffe Culling <span class="text-amber-300">in South Africa</span>
+            </h1>
+            <p class="text-lg md:text-xl text-amber-100/90 max-w-3xl mx-auto mb-10 leading-relaxed font-light">
+                A registered non-profit organisation based in Hoedspruit, Limpopo Province, working to relocate giraffe instead of culling them.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#donate" class="bg-amber-500 hover:bg-amber-400 text-amber-950 px-8 py-4 rounded-full text-lg font-semibold transition transform hover:scale-105 shadow-lg shadow-amber-500/30">
+                    Donate Now
+                </a>
+                <a href="#adopt" class="border-2 border-white/60 hover:border-white text-white px-8 py-4 rounded-full text-lg font-medium transition hover:bg-white/10">
+                    Adopt a Giraffe
+                </a>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-amber-50 to-transparent"></div>
+    </section>
+
+    <!-- Intro Section -->
+    <section id="about" class="bg-amber-50 py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="lg:w-3/5">
+                    <div class="w-16 h-1 bg-amber-500 mb-6"></div>
+                    <h2 class="font-playfair text-3xl md:text-5xl font-bold text-stone-900 mb-8">Who We Are</h2>
+                    <p class="text-lg text-stone-700 leading-relaxed mb-6">
+                        The <strong class="text-amber-800">Limpopo Giraffe Initiative (LGI)</strong> is a registered Non-Profit Organisation based in the Limpopo Province of South Africa, working directly within private wildlife reserves.
+                    </p>
+                    <p class="text-lg text-stone-700 leading-relaxed mb-6">
+                        South Africa has a relatively stable population of southern giraffe &mdash; but this does not mean the population is secure. Most giraffe live on fenced private reserves, where they cannot roam freely. Over time, this inevitably leads to local overpopulation, which must be carefully managed to prevent environmental degradation and animal suffering.
+                    </p>
+                    <p class="text-lg text-stone-700 leading-relaxed">
+                        By law, reserve owners are required to keep wildlife numbers within the land's carrying capacity, as determined by a formal assessment. When giraffe numbers exceed what the land can sustainably support, reserves are forced to reduce their herds.
+                    </p>
+                </div>
+                <div class="lg:w-2/5">
+                    <div class="relative">
+                        <div class="absolute -inset-4 bg-amber-200/50 rounded-2xl transform rotate-3"></div>
+                        <img src="images/pexels-giraffe-pair.jpg" alt="A pair of giraffes" class="relative rounded-2xl shadow-2xl shadow-amber-900/20 w-full object-cover aspect-[3/4]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section id="problem" class="bg-gradient-to-br from-amber-700 to-amber-900 py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="lg:w-2/5 order-2 lg:order-1">
+                    <img src="images/pexels-giraffe-savanna.jpg" alt="Giraffe on the savanna" class="rounded-2xl shadow-2xl w-full object-cover aspect-[3/4]">
+                </div>
+                <div class="lg:w-3/5 order-1 lg:order-2">
+                    <div class="w-16 h-1 bg-amber-400 mb-6"></div>
+                    <h2 class="font-playfair text-3xl md:text-5xl font-bold text-white mb-8">The Problem</h2>
+                    <p class="text-lg text-amber-100/90 leading-relaxed mb-6">
+                        Many reserves need to remove excess giraffe to remain compliant with regulations. However, smaller reserves and community conservation areas &mdash; which would gladly receive these animals &mdash; cannot afford the high costs of translocation, including:
+                    </p>
+                    <div class="grid sm:grid-cols-3 gap-4 mb-8">
+                        <div class="bg-amber-800/50 border border-amber-500/30 rounded-xl p-6 text-center">
+                            <div class="w-12 h-12 bg-amber-500/30 rounded-full flex items-center justify-center mx-auto mb-3 border-2 border-amber-400/50">
+                                <svg class="w-6 h-6 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                            </div>
+                            <h3 class="font-playfair text-lg font-bold text-white">Capture</h3>
+                        </div>
+                        <div class="bg-amber-800/50 border border-amber-500/30 rounded-xl p-6 text-center">
+                            <div class="w-12 h-12 bg-amber-500/30 rounded-full flex items-center justify-center mx-auto mb-3 border-2 border-amber-400/50">
+                                <svg class="w-6 h-6 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                            </div>
+                            <h3 class="font-playfair text-lg font-bold text-white">Veterinary Care</h3>
+                        </div>
+                        <div class="bg-amber-800/50 border border-amber-500/30 rounded-xl p-6 text-center">
+                            <div class="w-12 h-12 bg-amber-500/30 rounded-full flex items-center justify-center mx-auto mb-3 border-2 border-amber-400/50">
+                                <svg class="w-6 h-6 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                            </div>
+                            <h3 class="font-playfair text-lg font-bold text-white">Transport</h3>
+                        </div>
+                    </div>
+                    <p class="text-lg text-amber-100/90 leading-relaxed mb-6">
+                        In addition, receiving reserves must complete a Carrying Capacity Assessment to determine how many giraffe their land can sustainably support.
+                    </p>
+                    <div class="bg-amber-950/50 border-l-4 border-amber-400 rounded-r-xl p-6">
+                        <p class="text-amber-100 leading-relaxed font-medium">
+                            Without a viable alternative, the giving reserve is often left with only one option: <strong class="text-amber-300">culling the excess animals</strong> and selling the meat to recover financial value.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Solution Section -->
+    <section id="solution" class="bg-amber-50 py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="w-16 h-1 bg-amber-500 mb-6 mx-auto"></div>
+                <h2 class="font-playfair text-3xl md:text-5xl font-bold text-stone-900 mb-4">Our Solution</h2>
+                <p class="text-lg text-stone-600 max-w-3xl mx-auto">LGI is changing this. As a locally based non-profit, we raise funds to:</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white border-l-4 border-amber-500 rounded-xl p-8 shadow-xl shadow-amber-900/10">
+                    <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-playfair text-xl font-bold text-stone-900 mb-2">Full Translocation Funding</h3>
+                    <p class="text-stone-600 leading-relaxed">Cover the full cost of giraffe translocation, including fair compensation to the giving reserve.</p>
+                </div>
+                <div class="bg-white border-l-4 border-amber-500 rounded-xl p-8 shadow-xl shadow-amber-900/10">
+                    <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="font-playfair text-xl font-bold text-stone-900 mb-2">Carrying Capacity Support</h3>
+                    <p class="text-stone-600 leading-relaxed">Support receiving reserves with the required Carrying Capacity Assessment process.</p>
+                </div>
+                <div class="bg-white border-l-4 border-amber-500 rounded-xl p-8 shadow-xl shadow-amber-900/10">
+                    <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-playfair text-xl font-bold text-stone-900 mb-2">Enable Smaller Reserves</h3>
+                    <p class="text-stone-600 leading-relaxed">Enable smaller reserves and community projects to receive giraffe they otherwise could not afford.</p>
+                </div>
+                <div class="bg-white border-l-4 border-amber-500 rounded-xl p-8 shadow-xl shadow-amber-900/10">
+                    <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                    </div>
+                    <h3 class="font-playfair text-xl font-bold text-stone-900 mb-2">Genetic Diversity</h3>
+                    <p class="text-stone-600 leading-relaxed">Improve genetic diversity across fenced populations through carefully planned relocations.</p>
+                </div>
+                <div class="bg-white border-l-4 border-amber-500 rounded-xl p-8 shadow-xl shadow-amber-900/10 lg:col-span-2">
+                    <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"></path></svg>
+                    </div>
+                    <h3 class="font-playfair text-xl font-bold text-stone-900 mb-2">Prevent Unnecessary Culling</h3>
+                    <p class="text-stone-600 leading-relaxed">By funding the entire translocation process, we eliminate the need for reserves to resort to culling as the only financially viable option.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach Section -->
+    <section class="relative py-24 overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/pexels-african-sunset.jpg" alt="African sunset" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-amber-950/90 via-amber-900/80 to-amber-800/60"></div>
+        </div>
+        <div class="relative z-10 max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="w-16 h-1 bg-amber-400 mb-6 mx-auto"></div>
+                <h2 class="font-playfair text-3xl md:text-5xl font-bold text-white mb-4 text-shadow">Our Approach</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-white/10 backdrop-blur-sm border border-amber-400/30 rounded-2xl p-10">
+                    <div class="w-16 h-16 bg-amber-500/30 rounded-full flex items-center justify-center mb-6 border-2 border-amber-400/50">
+                        <svg class="w-8 h-8 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-playfair text-2xl font-bold text-white mb-4">Short Term</h3>
+                    <p class="text-amber-100/80 leading-relaxed text-lg">
+                        We focus on relocating giraffe within South Africa &mdash; preventing culling while strengthening and balancing local populations.
+                    </p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm border border-amber-400/30 rounded-2xl p-10">
+                    <div class="w-16 h-16 bg-amber-500/30 rounded-full flex items-center justify-center mb-6 border-2 border-amber-400/50">
+                        <svg class="w-8 h-8 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-playfair text-2xl font-bold text-white mb-4">Long Term</h3>
+                    <p class="text-amber-100/80 leading-relaxed text-lg">
+                        We aim to become a regional sourcing centre. From our base in Limpopo, we will expand our impact by facilitating the movement of surplus giraffe to neighbouring countries &mdash; helping restore populations and expand habitat connectivity across borders.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proven Example Section -->
+    <section id="visit" class="bg-amber-50 py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="lg:w-1/2">
+                    <div class="relative">
+                        <div class="absolute -inset-4 bg-amber-200/50 rounded-2xl transform -rotate-2"></div>
+                        <img src="images/pexels-giraffe-mother-calf.jpg" alt="Mother giraffe and calf" class="relative rounded-2xl shadow-2xl shadow-amber-900/20 w-full object-cover aspect-[4/3]">
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="w-16 h-1 bg-amber-500 mb-6"></div>
+                    <h2 class="font-playfair text-3xl md:text-5xl font-bold text-stone-900 mb-8">A Proven Example</h2>
+                    <p class="text-lg text-stone-700 leading-relaxed mb-6">
+                        At <strong class="text-amber-800">Blyde Wildlife Reserve</strong> in Limpopo, we have first-hand experience in this. Recently, we successfully translocated <strong class="text-amber-800">11 giraffe</strong> to Mountainlands Nature Reserve near Barberton, Mpumalanga. We had more, but could not find reserves with the funds to receive them.
+                    </p>
+                    <div class="space-y-4 mb-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <p class="text-stone-700 text-lg">Improved genetic diversity</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <p class="text-stone-700 text-lg">Strengthened both populations</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <p class="text-stone-700 text-lg">Prevented the need for culling</p>
+                        </div>
+                    </div>
+                    <p class="text-lg text-stone-700 leading-relaxed">
+                        With your support, we can make many more of these life-saving relocations possible &mdash; while ensuring full legal compliance and fair compensation to landowners.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Your Support Matters Section -->
+    <section class="bg-gradient-to-br from-amber-700 to-amber-900 py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="lg:w-3/5">
+                    <div class="w-16 h-1 bg-amber-400 mb-6"></div>
+                    <h2 class="font-playfair text-3xl md:text-5xl font-bold text-white mb-8">Why Your Support Matters</h2>
+                    <p class="text-lg text-amber-100/90 leading-relaxed mb-8">Your donation directly funds:</p>
+                    <div class="grid sm:grid-cols-2 gap-4 mb-8">
+                        <div class="bg-amber-800/50 border border-amber-500/30 rounded-xl p-5 flex items-center gap-4">
+                            <div class="w-10 h-10 bg-amber-500/30 rounded-full flex items-center justify-center flex-shrink-0 border border-amber-400/50">
+                                <svg class="w-5 h-5 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-amber-100 font-medium">Saving a giraffe from culling</span>
+                        </div>
+                        <div class="bg-amber-800/50 border border-amber-500/30 rounded-xl p-5 flex items-center gap-4">
+                            <div class="w-10 h-10 bg-amber-500/30 rounded-full flex items-center justify-center flex-shrink-0 border border-amber-400/50">
+                                <svg class="w-5 h-5 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-amber-100 font-medium">Capture and veterinary care</span>
+                        </div>
+                        <div class="bg-amber-800/50 border border-amber-500/30 rounded-xl p-5 flex items-center gap-4">
+                            <div class="w-10 h-10 bg-amber-500/30 rounded-full flex items-center justify-center flex-shrink-0 border border-amber-400/50">
+                                <svg class="w-5 h-5 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-amber-100 font-medium">Safe transport</span>
+                        </div>
+                        <div class="bg-amber-800/50 border border-amber-500/30 rounded-xl p-5 flex items-center gap-4">
+                            <div class="w-10 h-10 bg-amber-500/30 rounded-full flex items-center justify-center flex-shrink-0 border border-amber-400/50">
+                                <svg class="w-5 h-5 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-amber-100 font-medium">Compensation to the source reserve</span>
+                        </div>
+                        <div class="bg-amber-800/50 border border-amber-500/30 rounded-xl p-5 flex items-center gap-4 sm:col-span-2">
+                            <div class="w-10 h-10 bg-amber-500/30 rounded-full flex items-center justify-center flex-shrink-0 border border-amber-400/50">
+                                <svg class="w-5 h-5 text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-amber-100 font-medium">Carrying Capacity Assessments for receiving reserves</span>
+                        </div>
+                    </div>
+                    <p class="text-lg text-amber-100/90 leading-relaxed mb-4">
+                        You are supporting a registered Limpopo-based NPO working on real land with real conservation impact.
+                    </p>
+                    <p class="text-lg text-amber-100/90 leading-relaxed">
+                        You are helping create a system where conservation makes economic sense &mdash; and where landowners choose relocation over culling.
+                    </p>
+                </div>
+                <div class="lg:w-2/5">
+                    <img src="images/pexels-giraffe-walking.jpg" alt="Giraffe walking" class="rounded-2xl shadow-2xl w-full object-cover aspect-[3/4]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="donate" class="relative py-32 overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="images/pexels-sa-sunset.jpg" alt="South African sunset" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-amber-950/90 via-amber-900/70 to-amber-800/50"></div>
+        </div>
+        <div class="relative z-10 max-w-3xl mx-auto text-center px-6">
+            <h2 class="font-playfair text-3xl md:text-5xl font-bold text-white mb-6 text-shadow">
+                Act Now
+            </h2>
+            <p class="text-xl text-amber-100/90 mb-12 leading-relaxed">
+                We are acting while giraffe numbers are still stable &mdash; to prevent future declines caused by isolation, overpopulation, and unnecessary loss. A donation today helps move giraffe to safety &mdash; instead of them being culled.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#" class="bg-green-600 hover:bg-green-500 text-white px-8 py-5 rounded-full text-lg font-bold transition transform hover:scale-105 shadow-2xl shadow-green-600/30">
+                    Donate Now
+                </a>
+                <a href="#" id="adopt" class="bg-amber-500 hover:bg-amber-400 text-amber-950 px-8 py-5 rounded-full text-lg font-bold transition transform hover:scale-105 shadow-2xl shadow-amber-500/30">
+                    Adopt a Giraffe
+                </a>
+                <a href="#" class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-5 rounded-full text-lg font-bold transition transform hover:scale-105 shadow-2xl shadow-blue-600/30">
+                    Fund a Relocation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Strip -->
+    <section class="bg-amber-50 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="images/DSC_5415.jpg" alt="Giraffe at Blyde" class="rounded-xl w-full aspect-square object-cover shadow-lg">
+                <img src="images/DSC_5462.jpg" alt="Giraffe at Blyde" class="rounded-xl w-full aspect-square object-cover shadow-lg">
+                <img src="images/DSC_5475.jpg" alt="Giraffe at Blyde" class="rounded-xl w-full aspect-square object-cover shadow-lg">
+                <img src="images/pexels-giraffe-pair.jpg" alt="Giraffe pair" class="rounded-xl w-full aspect-square object-cover shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-amber-950 text-amber-200/70 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div>
+                    <h3 class="font-playfair text-xl font-bold text-amber-100 mb-2">Limpopo Giraffe Initiative</h3>
+                    <p class="text-sm">The Hidden Valley &middot; Blyde Wildlife Reserve &middot; Hoedspruit, Limpopo</p>
+                    <p class="text-sm mt-1">A project proudly based at The Hidden Valley</p>
+                    <p class="text-sm mt-1">infothehiddenvalley@gmail.com</p>
+                </div>
+                <div class="flex gap-8 text-sm">
+                    <a href="#about" class="hover:text-amber-300 transition">About</a>
+                    <a href="#problem" class="hover:text-amber-300 transition">The Problem</a>
+                    <a href="#solution" class="hover:text-amber-300 transition">Our Solution</a>
+                    <a href="#visit" class="hover:text-amber-300 transition">Visit</a>
+                    <a href="#donate" class="hover:text-amber-300 transition">Donate</a>
+                </div>
+            </div>
+            <div class="border-t border-amber-800/50 mt-10 pt-8 text-center text-xs text-amber-200/40">
+                &copy; 2026 Limpopo Giraffe Initiative. A project of The Hidden Valley. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

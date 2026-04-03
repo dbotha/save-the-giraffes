@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Limpopo Giraffe Initiative - Neo Brutal Hope</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { display: ['Abril Fatface', 'serif'], body: ['Space Grotesk', 'sans-serif'] }, colors: { ink: '#111111', cream: '#faf3df', orange: '#f27a3d', green: '#8aa64a' } } } }
+  </script>
+  <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="bg-cream font-body text-ink">
+
+  <!-- NAV -->
+  <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
+    <a href="#" class="border-2 border-ink px-3 py-2 text-sm font-bold tracking-[0.15em]">LIMPOPO GIRAFFE INITIATIVE</a>
+    <div class="hidden gap-4 text-xs font-bold uppercase tracking-[0.2em] md:flex">
+      <a href="#about">About</a>
+      <a href="#problem">The Problem</a>
+      <a href="#solution">Our Solution</a>
+      <a href="#visit">Visit</a>
+      <a href="#donate">Donate</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="mx-auto grid max-w-7xl gap-8 px-6 pb-14 pt-2 lg:grid-cols-2">
+    <div class="space-y-6">
+      <p class="inline-block border-2 border-ink bg-green px-3 py-1 text-xs font-bold uppercase">Registered NPO &middot; Hoedspruit &middot; Limpopo Province</p>
+      <h1 class="font-display text-6xl leading-[0.95] md:text-8xl">Every Giraffe Deserves a Future &ndash; Not a Bullet.</h1>
+      <p class="text-2xl font-bold">Help Us Prevent Giraffe Culling in South Africa</p>
+      <p class="max-w-xl text-lg">A registered non-profit organisation based in Hoedspruit, Limpopo Province, working to relocate giraffe instead of culling them.</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="#donate" class="border-2 border-ink bg-ink px-7 py-3 font-bold text-cream">DONATE NOW</a>
+        <a href="#donate" class="border-2 border-ink bg-cream px-7 py-3 font-bold">ADOPT A GIRAFFE</a>
+      </div>
+    </div>
+    <img src="../images/DSC_5475.jpg" alt="Giraffe in the Limpopo lowveld" class="h-[460px] w-full border-4 border-ink object-cover" />
+  </header>
+
+  <main class="mx-auto max-w-7xl px-6 pb-24">
+
+    <!-- INTRO STATS -->
+    <section class="grid gap-4 md:grid-cols-3">
+      <article class="border-2 border-ink bg-white p-6">
+        <p class="inline-block border-2 border-ink bg-orange px-2 py-0.5 text-xs font-bold">FACT</p>
+        <p class="mt-3 text-3xl font-bold">STABLE &ne; SECURE</p>
+        <p class="mt-1">Fenced reserves create artificial limits. Overpopulation triggers legal culling requirements.</p>
+      </article>
+      <article class="border-2 border-ink bg-white p-6">
+        <p class="inline-block border-2 border-ink bg-green px-2 py-0.5 text-xs font-bold">NPO</p>
+        <p class="mt-3 text-3xl font-bold">REGISTERED</p>
+        <p class="mt-1">LGI operates within private wildlife reserves in Limpopo Province, South Africa.</p>
+      </article>
+      <article class="border-2 border-ink bg-white p-6">
+        <p class="inline-block border-2 border-ink bg-orange px-2 py-0.5 text-xs font-bold">LAW</p>
+        <p class="mt-3 text-3xl font-bold">COMPLIANCE</p>
+        <p class="mt-1">South African law requires carrying capacity compliance. Excess animals must be removed.</p>
+      </article>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="mt-12 grid gap-8 lg:grid-cols-2 lg:items-center">
+      <img src="../images/pexels-giraffe-pair.jpg" alt="Two giraffe side by side on a reserve" class="h-[340px] w-full border-4 border-ink object-cover" />
+      <div>
+        <p class="inline-block border-2 border-ink bg-green px-2 py-0.5 text-xs font-bold">ABOUT US</p>
+        <h2 class="mt-3 font-display text-5xl">WHO WE ARE</h2>
+        <p class="mt-3 text-lg">LGI is a registered NPO in Limpopo Province, working within private wildlife reserves. The giraffe population here is stable but not secure. Fenced reserves prevent natural dispersal and lead to overpopulation. South African law requires landowners to comply with carrying capacity limits &mdash; and when they cannot afford relocation, culling becomes the default.</p>
+      </div>
+    </section>
+
+    <!-- THE PROBLEM -->
+    <section id="problem" class="mt-12">
+      <p class="inline-block border-2 border-ink bg-orange px-2 py-0.5 text-xs font-bold">THE PROBLEM</p>
+      <h2 class="mt-3 font-display text-5xl">WHY GIRAFFE ARE CULLED</h2>
+      <div class="mt-6 grid gap-4 lg:grid-cols-2">
+        <div class="border-2 border-ink bg-white p-6">
+          <img src="../images/pexels-giraffe-savanna.jpg" alt="Giraffe crossing open savanna" class="h-56 w-full border-2 border-ink object-cover" />
+          <h3 class="mt-4 text-xl font-bold">THE COST BARRIER</h3>
+          <p class="mt-2">Reserves must remove excess giraffe. Smaller reserves cannot afford capture teams, veterinary care, or specialised transport. They also need a Carrying Capacity Assessment before any animal can move.</p>
+        </div>
+        <div class="border-2 border-ink bg-white p-6">
+          <img src="../images/pexels-giraffe-mother-calf.jpg" alt="Giraffe mother with her calf" class="h-56 w-full border-2 border-ink object-cover" />
+          <h3 class="mt-4 text-xl font-bold">THE DEFAULT OUTCOME</h3>
+          <p class="mt-2">When relocation is unaffordable, the default response is culling and selling the meat. It is legal. But it does not need to be the only option.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR SOLUTION -->
+    <section id="solution" class="mt-12">
+      <p class="inline-block border-2 border-ink bg-green px-2 py-0.5 text-xs font-bold">OUR SOLUTION</p>
+      <h2 class="mt-3 font-display text-5xl">RELOCATION NOT CULLING</h2>
+      <div class="mt-6 grid gap-4 md:grid-cols-3 lg:grid-cols-5">
+        <div class="border-2 border-ink bg-orange p-5">
+          <p class="font-bold">01 FUND</p>
+          <p class="mt-2">Fund translocation from overstocked reserves</p>
+        </div>
+        <div class="border-2 border-ink bg-green p-5">
+          <p class="font-bold">02 ASSESS</p>
+          <p class="mt-2">Support carrying capacity assessments</p>
+        </div>
+        <div class="border-2 border-ink bg-white p-5">
+          <p class="font-bold">03 ENABLE</p>
+          <p class="mt-2">Enable smaller reserves to participate</p>
+        </div>
+        <div class="border-2 border-ink bg-orange p-5">
+          <p class="font-bold">04 DIVERSIFY</p>
+          <p class="mt-2">Improve genetic diversity across populations</p>
+        </div>
+        <div class="border-2 border-ink bg-green p-5">
+          <p class="font-bold">05 PREVENT</p>
+          <p class="mt-2">Prevent unnecessary culling wherever possible</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR APPROACH -->
+    <section class="mt-12 grid gap-4 lg:grid-cols-2">
+      <div class="border-2 border-ink bg-white p-6">
+        <img src="../images/pexels-giraffe-walking.jpg" alt="Giraffe walking through bushveld" class="h-56 w-full border-2 border-ink object-cover" />
+        <p class="mt-4 inline-block border-2 border-ink bg-orange px-2 py-0.5 text-xs font-bold">SHORT TERM</p>
+        <h3 class="mt-3 text-xl font-bold">RELOCATE WITHIN SOUTH AFRICA</h3>
+        <p class="mt-2">Move giraffe from reserves that exceed carrying capacity to properties with space and suitable habitat within the country.</p>
+      </div>
+      <div class="border-2 border-ink bg-white p-6">
+        <img src="../images/DSC_5415.jpg" alt="Lowveld landscape near Hoedspruit" class="h-56 w-full border-2 border-ink object-cover" />
+        <p class="mt-4 inline-block border-2 border-ink bg-green px-2 py-0.5 text-xs font-bold">LONG TERM</p>
+        <h3 class="mt-3 text-xl font-bold">REGIONAL SOURCING CENTRE</h3>
+        <p class="mt-2">Establish a sourcing centre for neighbouring countries that need giraffe for restocking and conservation programmes across southern Africa.</p>
+      </div>
+    </section>
+
+    <!-- PROVEN EXAMPLE -->
+    <section class="mt-12 grid gap-8 lg:grid-cols-2 lg:items-center">
+      <div>
+        <p class="inline-block border-2 border-ink bg-orange px-2 py-0.5 text-xs font-bold">PROVEN EXAMPLE</p>
+        <h2 class="mt-3 font-display text-5xl">BLYDE TO MOUNTAINLANDS</h2>
+        <p class="mt-4 text-lg">From Blyde Wildlife Reserve, 11 giraffe were successfully translocated to Mountainlands Nature Reserve near Barberton. This single operation improved genetic diversity, strengthened both populations, and prevented culling. The model works &mdash; and it can be repeated.</p>
+      </div>
+      <img src="../images/DSC_5462.jpg" alt="Giraffe in the lowveld bush" class="h-[340px] w-full border-4 border-ink object-cover" />
+    </section>
+
+    <!-- WHY SUPPORT MATTERS -->
+    <section id="visit" class="mt-12 border-2 border-ink bg-white p-8">
+      <p class="inline-block border-2 border-ink bg-green px-2 py-0.5 text-xs font-bold">WHY YOUR SUPPORT MATTERS</p>
+      <h3 class="mt-3 font-display text-4xl">REAL NPO. REAL LAND. REAL IMPACT.</h3>
+      <div class="mt-4 grid gap-6 lg:grid-cols-2 lg:items-center">
+        <p class="text-lg">Your donations directly fund saving giraffe from culling: capture and veterinary teams, specialised transport, compensation to landowners, and carrying capacity assessments. This is a registered non-profit with real operations on real land, delivering measurable conservation outcomes.</p>
+        <img src="../images/pexels-african-sunset.jpg" alt="African sunset over the reserve" class="h-56 w-full border-2 border-ink object-cover" />
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="donate" class="mt-12 border-4 border-ink bg-ink p-10 text-center text-cream">
+      <h2 class="font-display text-5xl">ACT NOW</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-lg">Every donation directly prevents a giraffe from being culled. Choose how you want to help.</p>
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+        <a href="#" class="border-2 border-cream bg-green px-8 py-3 font-bold text-ink">DONATE NOW</a>
+        <a href="#" class="border-2 border-cream bg-[#c9a84c] px-8 py-3 font-bold text-ink">ADOPT A GIRAFFE</a>
+        <a href="#" class="border-2 border-cream bg-[#3a7cbf] px-8 py-3 font-bold text-cream">FUND A RELOCATION</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t-4 border-ink bg-cream py-10">
+    <div class="mx-auto grid max-w-7xl gap-4 px-6 text-sm md:grid-cols-2">
+      <div>
+        <p class="font-display text-3xl">Limpopo Giraffe Initiative</p>
+        <p class="mt-1">The Hidden Valley &middot; Blyde Wildlife Reserve &middot; Hoedspruit, Limpopo</p>
+      </div>
+      <div class="md:text-right">
+        <a href="mailto:infothehiddenvalley@gmail.com" class="hover:text-orange">infothehiddenvalley@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

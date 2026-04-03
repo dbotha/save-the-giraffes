@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Limpopo Giraffe Initiative - Ivory Editorial</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Fraunces', 'serif'],
+            body: ['Plus Jakarta Sans', 'sans-serif']
+          },
+          colors: {
+            paper: '#f7f2e8',
+            ink: '#171513',
+            clay: '#ab5f34'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-paper font-body text-ink">
+
+  <!-- NAV -->
+  <nav class="sticky top-0 z-50 border-b border-ink/10 bg-paper/90 backdrop-blur-md">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <a href="#" class="font-display text-lg tracking-[0.12em] text-ink">Limpopo Giraffe Initiative</a>
+      <div class="hidden gap-8 text-xs uppercase tracking-[0.2em] text-ink/60 md:flex">
+        <a href="#about" class="hover:text-clay transition-colors">About</a>
+        <a href="#problem" class="hover:text-clay transition-colors">The Problem</a>
+        <a href="#solution" class="hover:text-clay transition-colors">Our Solution</a>
+        <a href="#visit" class="hover:text-clay transition-colors">Visit</a>
+        <a href="#donate" class="hover:text-clay transition-colors">Donate</a>
+      </div>
+      <a href="#donate" class="rounded-full bg-ink px-5 py-2 text-sm font-medium text-paper hover:bg-ink/85 transition-colors">Donate</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-2 lg:items-center lg:py-20">
+    <div>
+      <p class="text-xs uppercase tracking-[0.36em] text-clay">Hoedspruit, Limpopo Province</p>
+      <p class="mt-4 font-display text-xl italic text-ink/70">"Every Giraffe Deserves a Future &ndash; Not a Bullet."</p>
+      <h1 class="mt-3 font-display text-5xl leading-tight md:text-6xl lg:text-7xl">Help Us Prevent Giraffe Culling in South Africa</h1>
+      <p class="mt-6 max-w-xl text-lg text-ink/70 leading-relaxed">A registered non-profit organisation based in Hoedspruit, Limpopo Province, working to relocate giraffe instead of culling them.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="#donate" class="rounded-full bg-ink px-7 py-3.5 font-semibold text-paper hover:bg-ink/85 transition-colors">Donate Now</a>
+        <a href="#adopt" class="rounded-full border-2 border-ink/20 px-7 py-3.5 font-semibold text-ink hover:border-clay hover:text-clay transition-colors">Adopt a Giraffe</a>
+      </div>
+    </div>
+    <img src="../images/DSC_5475.jpg" alt="Giraffe in the South African bush" class="h-[640px] w-full rounded-[2.2rem] object-cover" />
+  </header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section id="about" class="border-y border-ink/10">
+      <div class="mx-auto max-w-7xl px-6 py-20">
+        <div class="grid gap-14 lg:grid-cols-5">
+          <div class="lg:col-span-2">
+            <p class="text-xs uppercase tracking-[0.3em] text-clay">About Us</p>
+            <h2 class="mt-3 font-display text-4xl md:text-5xl">Who We Are</h2>
+          </div>
+          <div class="space-y-5 text-ink/70 leading-relaxed lg:col-span-3">
+            <p>The Limpopo Giraffe Initiative (LGI) is a registered Non-Profit Organisation based in the Limpopo Province of South Africa, working directly within private wildlife reserves.</p>
+            <p>South Africa has a relatively stable population of southern giraffe &mdash; but this does not mean the population is secure. Most giraffe live on fenced private reserves, where they cannot roam freely. Over time, this inevitably leads to local overpopulation, which must be carefully managed to prevent environmental degradation and animal suffering.</p>
+            <p>By law, reserve owners are required to keep wildlife numbers within the land's carrying capacity, as determined by a formal assessment. When giraffe numbers exceed what the land can sustainably support, reserves are forced to reduce their herds.</p>
+          </div>
+        </div>
+        <div class="mt-16 grid gap-6 md:grid-cols-2">
+          <img src="../images/pexels-giraffe-pair.jpg" alt="A pair of giraffes" class="h-[380px] w-full rounded-3xl object-cover" />
+          <img src="../images/pexels-giraffe-savanna.jpg" alt="Giraffe on the savanna" class="h-[380px] w-full rounded-3xl object-cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- THE PROBLEM -->
+    <section id="problem" class="mx-auto max-w-7xl px-6 py-20">
+      <div class="grid gap-14 lg:grid-cols-5">
+        <div class="lg:col-span-2">
+          <p class="text-xs uppercase tracking-[0.3em] text-clay">The Crisis</p>
+          <h2 class="mt-3 font-display text-4xl md:text-5xl">The Problem</h2>
+        </div>
+        <div class="lg:col-span-3">
+          <p class="text-ink/70 leading-relaxed">Many reserves need to remove excess giraffe to remain compliant with regulations. However, smaller reserves and community conservation areas &mdash; which would gladly receive these animals &mdash; cannot afford the high costs of translocation, including:</p>
+          <ul class="mt-5 space-y-2 text-ink/70">
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-clay flex-shrink-0"></span>Capture</li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-clay flex-shrink-0"></span>Veterinary care</li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-clay flex-shrink-0"></span>Transport</li>
+          </ul>
+          <p class="mt-5 text-ink/70 leading-relaxed">In addition, receiving reserves must complete a Carrying Capacity Assessment.</p>
+          <div class="mt-6 rounded-2xl bg-[#ece3d2] p-6">
+            <p class="font-semibold text-ink">Without a viable alternative:</p>
+            <p class="mt-1 text-ink/70">Culling the excess animals and selling the meat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR SOLUTION -->
+    <section id="solution" class="border-y border-ink/10">
+      <div class="mx-auto max-w-7xl px-6 py-20">
+        <p class="text-xs uppercase tracking-[0.3em] text-clay">What We Do</p>
+        <h2 class="mt-3 font-display text-4xl md:text-5xl">Our Solution</h2>
+        <p class="mt-4 max-w-3xl text-lg text-ink/70">LGI is changing this. We raise funds to make giraffe relocation possible.</p>
+        <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-2xl bg-[#ece3d2] p-7">
+            <p class="font-display text-3xl text-clay">01</p>
+            <p class="mt-3 font-semibold">Full Translocation Costs</p>
+            <p class="mt-2 text-sm text-ink/65">Cover the full cost of giraffe translocation, including fair compensation to the source reserve.</p>
+          </article>
+          <article class="rounded-2xl bg-[#ece3d2] p-7">
+            <p class="font-display text-3xl text-clay">02</p>
+            <p class="mt-3 font-semibold">Assessment Support</p>
+            <p class="mt-2 text-sm text-ink/65">Support receiving reserves with Carrying Capacity Assessments to ensure ecological sustainability.</p>
+          </article>
+          <article class="rounded-2xl bg-[#ece3d2] p-7">
+            <p class="font-display text-3xl text-clay">03</p>
+            <p class="mt-3 font-semibold">Enable Smaller Reserves</p>
+            <p class="mt-2 text-sm text-ink/65">Enable smaller reserves to receive giraffe that they otherwise could not afford to translocate.</p>
+          </article>
+          <article class="rounded-2xl bg-[#ece3d2] p-7">
+            <p class="font-display text-3xl text-clay">04</p>
+            <p class="mt-3 font-semibold">Genetic Diversity</p>
+            <p class="mt-2 text-sm text-ink/65">Improve genetic diversity across populations by strategically moving animals between reserves.</p>
+          </article>
+          <article class="rounded-2xl bg-[#ece3d2] p-7 md:col-span-2 lg:col-span-2">
+            <p class="font-display text-3xl text-clay">05</p>
+            <p class="mt-3 font-semibold">Prevent Unnecessary Culling</p>
+            <p class="mt-2 text-sm text-ink/65">Every giraffe we relocate is one saved from being culled. We provide reserves with a humane, conservation-driven alternative.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR APPROACH -->
+    <section class="mx-auto max-w-7xl px-6 py-20">
+      <div class="grid gap-14 lg:grid-cols-2">
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-clay">Strategy</p>
+          <h2 class="mt-3 font-display text-4xl md:text-5xl">Our Approach</h2>
+          <img src="../images/pexels-giraffe-walking.jpg" alt="Giraffe walking through the bush" class="mt-10 h-[340px] w-full rounded-3xl object-cover" />
+        </div>
+        <div class="space-y-6 lg:pt-14">
+          <div class="rounded-2xl border-2 border-ink/10 p-8">
+            <p class="text-xs uppercase tracking-[0.25em] text-clay font-semibold">Short Term</p>
+            <h3 class="mt-3 font-display text-2xl md:text-3xl">Relocating Within South Africa</h3>
+            <p class="mt-3 text-ink/70 leading-relaxed">Relocating giraffe within South Africa &mdash; preventing culling while strengthening local populations across private and community reserves.</p>
+          </div>
+          <div class="rounded-2xl border-2 border-ink/10 p-8">
+            <p class="text-xs uppercase tracking-[0.25em] text-clay font-semibold">Long Term</p>
+            <h3 class="mt-3 font-display text-2xl md:text-3xl">Regional Sourcing Centre</h3>
+            <p class="mt-3 text-ink/70 leading-relaxed">Establishing a regional sourcing centre from our Limpopo base, facilitating movement to neighbouring countries and expanding conservation impact across southern Africa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A PROVEN EXAMPLE -->
+    <section class="border-y border-ink/10">
+      <div class="mx-auto max-w-7xl px-6 py-20">
+        <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+          <img src="../images/pexels-giraffe-mother-calf.jpg" alt="Giraffe mother and calf" class="h-[460px] w-full rounded-3xl object-cover" />
+          <div>
+            <p class="text-xs uppercase tracking-[0.3em] text-clay">Proof of Impact</p>
+            <h2 class="mt-3 font-display text-4xl md:text-5xl">A Proven Example</h2>
+            <p class="mt-6 text-ink/70 leading-relaxed">At Blyde Wildlife Reserve, we successfully translocated <span class="font-semibold text-clay">11 giraffe</span> to Mountainlands Nature Reserve near Barberton, Mpumalanga.</p>
+            <ul class="mt-6 space-y-3 text-ink/70">
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-clay flex-shrink-0"></span>Improved genetic diversity across both reserves</li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-clay flex-shrink-0"></span>Strengthened both populations for long-term sustainability</li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-clay flex-shrink-0"></span>Prevented culling of healthy animals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY YOUR SUPPORT MATTERS -->
+    <section class="mx-auto max-w-7xl px-6 py-20">
+      <div class="grid gap-14 lg:grid-cols-5">
+        <div class="lg:col-span-2">
+          <p class="text-xs uppercase tracking-[0.3em] text-clay">Make a Difference</p>
+          <h2 class="mt-3 font-display text-4xl md:text-5xl">Why Your Support Matters</h2>
+          <p class="mt-4 text-ink/60 italic">You are supporting a registered Limpopo-based NPO with real conservation impact.</p>
+        </div>
+        <div class="lg:col-span-3">
+          <p class="text-ink/70 leading-relaxed">Your donations directly fund every step of the process:</p>
+          <div class="mt-6 grid gap-4 sm:grid-cols-2">
+            <div class="rounded-xl bg-[#ece3d2] p-5">
+              <p class="font-semibold text-ink">Saving a Giraffe</p>
+              <p class="mt-1 text-sm text-ink/60">Rescuing a giraffe from culling</p>
+            </div>
+            <div class="rounded-xl bg-[#ece3d2] p-5">
+              <p class="font-semibold text-ink">Capture &amp; Vet Care</p>
+              <p class="mt-1 text-sm text-ink/60">Professional veterinary handling</p>
+            </div>
+            <div class="rounded-xl bg-[#ece3d2] p-5">
+              <p class="font-semibold text-ink">Safe Transport</p>
+              <p class="mt-1 text-sm text-ink/60">Specialised giraffe transport</p>
+            </div>
+            <div class="rounded-xl bg-[#ece3d2] p-5">
+              <p class="font-semibold text-ink">Compensation</p>
+              <p class="mt-1 text-sm text-ink/60">Fair payment to source reserve</p>
+            </div>
+            <div class="rounded-xl bg-[#ece3d2] p-5 sm:col-span-2">
+              <p class="font-semibold text-ink">Carrying Capacity Assessments</p>
+              <p class="mt-1 text-sm text-ink/60">Ecological reports ensuring sustainability at receiving reserves</p>
+            </div>
+          </div>
+          <img src="../images/pexels-african-sunset.jpg" alt="African sunset" class="mt-8 h-[280px] w-full rounded-2xl object-cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section id="visit" class="border-y border-ink/10">
+      <div class="mx-auto max-w-7xl px-6 py-20">
+        <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
+          <div>
+            <p class="text-xs uppercase tracking-[0.3em] text-clay">Come See Us</p>
+            <h3 class="mt-3 font-display text-4xl">Visit The Hidden Valley</h3>
+            <p class="mt-4 text-ink/70 leading-relaxed">Experience where conservation happens. Visit us at The Hidden Valley in Blyde Wildlife Reserve near Hoedspruit, Limpopo. See the work first-hand and meet the team making a difference.</p>
+            <p class="mt-3 text-ink/70">Learn more at <a href="https://thehiddenvalley.co.za" class="underline text-clay hover:text-clay/80 transition-colors">thehiddenvalley.co.za</a></p>
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <img src="../images/DSC_5415.jpg" alt="The Hidden Valley" class="h-[280px] w-full rounded-2xl object-cover" />
+            <img src="../images/DSC_5462.jpg" alt="Blyde Wildlife Reserve" class="h-[280px] w-full rounded-2xl object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="donate" class="mx-auto max-w-5xl px-6 py-24">
+      <div class="relative overflow-hidden rounded-[2rem]">
+        <img src="../images/pexels-sa-sunset.jpg" alt="South African sunset" class="absolute inset-0 h-full w-full object-cover" />
+        <div class="absolute inset-0 bg-ink/80"></div>
+        <div class="relative px-8 py-16 text-center text-paper md:px-16">
+          <h2 class="font-display text-4xl md:text-5xl">Act Now</h2>
+          <p class="mx-auto mt-5 max-w-2xl text-lg text-paper/85">A donation today helps move giraffe to safety &mdash; instead of them being culled.</p>
+          <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+            <a href="#" class="rounded-full bg-[#2d7a3a] px-8 py-3.5 font-semibold text-white hover:bg-[#246830] transition-colors">Donate Now</a>
+            <a href="#" class="rounded-full bg-[#d7b04a] px-8 py-3.5 font-semibold text-ink hover:bg-[#c9a340] transition-colors">Adopt a Giraffe</a>
+            <a href="#" class="rounded-full bg-[#2563eb] px-8 py-3.5 font-semibold text-white hover:bg-[#1d4ed8] transition-colors">Fund a Relocation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-ink/10 bg-[#efe7d9] py-12">
+    <div class="mx-auto grid max-w-7xl gap-6 px-6 md:grid-cols-2">
+      <div>
+        <p class="font-display text-2xl">Limpopo Giraffe Initiative</p>
+        <p class="mt-2 text-sm text-ink/60">The Hidden Valley &middot; Blyde Wildlife Reserve &middot; Hoedspruit, Limpopo</p>
+        <p class="mt-1 text-sm text-ink/60">A project proudly based at The Hidden Valley</p>
+      </div>
+      <div class="flex flex-col justify-center md:items-end">
+        <a href="mailto:infothehiddenvalley@gmail.com" class="text-sm text-ink/60 hover:text-clay transition-colors">infothehiddenvalley@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
